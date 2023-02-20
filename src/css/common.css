@@ -16,3 +16,26 @@ img {
   display: block;
   max-width: 100%;
 }
+.btn li {
+  margin-bottom: 40px;
+
+
+}
+.btn__link {
+  text-decoration: none;
+  padding: 5px 10px;
+  font-size: 20px;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+  transition: color var(--animation-duration) var(--timing-function),
+    background-color var(--animation-duration) var(--timing-function);
+}
+
+.btn__link:hover,
+.btn__link:focus {
+  background-color: #fff;
+  color: black;
+}
